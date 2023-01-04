@@ -20,7 +20,7 @@ with open(path.join(here, "README.rst"), encoding="utf-8") as f:
 
 setup(
     name="Adafruit_PureIO",
-    use_scm_version=True,
+    #use_scm_version=True,
     setup_requires=["setuptools_scm"],
     description="Pure python (i.e. no native extensions) access to Linux IO    including I2C and SPI. Drop in replacement for smbus and spidev modules.",
     long_description=long_description,
